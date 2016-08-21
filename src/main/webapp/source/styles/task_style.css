@@ -1,0 +1,104 @@
+.popup {
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.form {
+    margin:0 auto;
+    width:500px;
+    padding:14px;
+}
+label {
+    width: 10em;
+    float: left;
+    margin-right: 0.5em;
+    display: block
+}
+.submit {
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;
+}
+field {
+    background:#EBF4FB none repeat scroll 0 0;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.field:hover {
+    border-color: #b8b8b8;
+}
+textarea.field {
+    width: 388px;
+    height: 192px;
+    background: #fff bottom repeat-x;
+}
+.fieldset:focus {
+    border-color: #a8a8a8;
+}
+legend {
+    color: black;
+    background: #e0f9e4;
+    border: 1px solid #781351;
+    padding: 2px 6px
+}
+.elements {
+    padding:20px;
+}
+p {
+    border-bottom:1px solid #e0f9e4;
+    color:#666666;
+    font-size:16px;
+    margin-bottom:20px;
+    padding-bottom:10px;
+}
+
+.buttons input{
+    padding:5px 15px; background:#ccc; border:0 none;
+    margin-top: 40px;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin: 10px;
+}
+form {
+    display: inline-block
+}
+table {
+    background: #e0f9e4;
+    width: 100%;
+    margin-left: 50;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #85eb97;  
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+thead th { 
+    background: #85eb97; 
+    font-size:19px;
+}        
+
+td {
+    text-align: center; /* center checkbox horizontally */
+    vertical-align: middle; /* center checkbox vertically */
+}
+input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+}
+input[type="submit"]:disabled {
+    background: #f2f2f2;
+}
+input[type="button"]:disabled {
+    background: #f2f2f2;
+}
+input[type="submit"]:enabled {
+    background: #b3b3b3;
+}
+em {
+    color: #b30000;
+}

@@ -1,0 +1,34 @@
+version=20160805-4
+- Removed unused import
+- Fixed edit and add task, fixed edit project
+
+version=20160805-3
+- Fixed problem with assign tasks
+
+version=20160805-2
+- Fixed problem with executor list in task.jsp
+
+version=20160805-1
+- Seperated DAO/DTO in task, need to be tested and fixed
+
+version=20160804-3
+- Project is working now with null in date and workhour
+- Change every exception handler to loggers
+
+version=20160804-2
+- Seperated DAO/DTO with project, it's not workign when date is null
+
+version=20160804-1
+- Seperated DAO/DTO with employee, check if it's working
+
+version=20160801-2
+- added multiple selection in form task list
+- added possibility of removing multiple employee by selecting them from list
+- added feature that after seleting diffrent row the seletion in previous row is being deselected
+- fix removing employees
+
+version=20160801-1
+- Initial version
+- project form eith tasks
+- added create.sql file
+- added comments

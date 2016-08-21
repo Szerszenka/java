@@ -1,0 +1,81 @@
+/* ------------------------CZ???-G?RNA-MENU------------------------ */
+
+/* wygl?d g??wnego elementu - ol */
+ol {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    background-color:#e0e0eb;
+    font-size:18px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+}
+
+/* wygl?d wszystkich element?w - a - znajduj?cych si? w elemencie - ol */
+ol a {
+    display:block;
+    text-decoration:none;
+    color:#e6e600;
+    padding:0 5px;
+}
+
+/* wygl?d element?w - li - wszystkich dzieci elementu - ol */
+ol > li {
+    float:left;
+    width:100%;
+    margin-left:1px;
+    background-color:#9292b9;
+    height:2em;
+}
+
+/* wygl?d elementu - li - pierwszego dziecka elementu - ol */
+ol > li:first-child {
+    margin-left:0;
+}
+
+/* wygl?d element?w - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+ol > li:hover {
+    background-color:#EEE;
+}
+
+/* wygl?d elementu - a - dziecka elementu - li - b?d?cego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+ol > li:hover > a {
+    color:#09C;
+}
+
+/* wygl?d elementu - ul - dziecka elementu - li - b?d?cego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+ol > li:hover > ul {
+    display:block;
+}
+
+/* ------------------------CZ???-ROZWIJANA-MENU------------------------ */
+
+/* wygl?d g??wnych rozwijanych element?w - ul */
+ol > li > ul {
+    display:none;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+/* wygl?d elementu - li - w cz??ci rozwijanej */
+ol > li > ul > li {
+    position:relative;
+    background-color:#EEE;
+}
+
+/* wygl?d elementu - a - w cz??ci rozwijanej */
+ol > li > ul > li > a {
+    border-top:1px solid #FFF;
+}
+
+/* wygl?d elementu - li - w cz??ci rozwijanej, po najechaniu kursorem myszki na dany element - li */
+ol > li > ul > li:hover {
+    background-color:#DDD;
+}
+
+/* wygl?d elementu - a - w cz??ci rozwijanej, po najechaniu kursorem myszki na element - li */
+ol > li > ul > li:hover > a {
+    color:#09C;
+}

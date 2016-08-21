@@ -1,0 +1,7 @@
+For starting project you need:
+-apache tomcate 7.0 or higher
+-postgresql 9.3 or higher
+
+First you need create database with user name 'postgres' and password 'superuser'.
+Then create connection with apache. 
+Using file create.sql create database tables. You can also use create.sql for creating tables in java DB.
